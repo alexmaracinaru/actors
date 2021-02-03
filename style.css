@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------- T H E     C O N T E N T ---------*/
+
+h1{
+  margin:auto;
+  padding: 70px 100px 0px 100px;
+  color: cornflowerblue;
+  font-weight: 300;
+  font-style: italic;
+}
+h2{padding: 0 100px 30px 100px;
+  font-weight: 300;
+
+}
+.actors{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:30px;
+    padding:80px;
+}
+.name{
+    font-size: 22px;
+    color:cornflowerblue;
+}
+button{
+    border: 2px solid cornflowerblue;
+  background-color: white;
+  color: cornflowerblue;
+  padding: 14px 16px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+button:hover{
+    background: rgb(166, 194, 245);
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+/* ------- T H E     M O D A L ---------*/
+.hide {
+    display: none;
+  }
+  
+  .modal-background {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: cornflowerblue;
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    border: 1px solid #000000;
+    margin: 1em;
+    padding: 2em;
+  }

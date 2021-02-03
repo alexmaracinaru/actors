@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Actors...</h1>
+      <h2>A list of actors and their respective movies</h2>
+    </header>
+    <section class="actors">
+      <template id="myTemplate">
+        <div class="actor">
+          <div class="name">Amanda Plummer</div>
+          <div class="movie">Pulp Fiction</div>
+        </div>
+        <button>See more</button>
+      </template>
+    </section>
+
+    <div class="modal-background hide">
+      <div class="modal-content">
+        <h3 class="modal-name">Amanda Plummer</h3>
+        <h4 class="modal-movie">Pulp Fiction</h4>
+        <button><span>X</span></button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
